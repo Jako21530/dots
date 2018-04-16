@@ -1,0 +1,53 @@
+! XRESOURCES CONFIG
+
+! Clickable URLs
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/firefox
+URxvt.matcher.button: 1
+
+! Disable Scrollbar
+URxvt.scrollBar: false
+
+!FONT
+URxvt.font: xft:Inconsolata:bold:size=11
+!URxvt.font: xft:Tamzen:size=11
+URxvt.letterSpace: 0 
+
+Xft.lcdfilter: lcddefault
+Xft.antialias: true
+Xft.autohint: 0
+Xft.hinting: true
+Xft.hintstyle: hintfull
+Xft.rgba: rgb
+Xft.dpi: 96
+
+! Settings
+URxvt.internalBorder: 10
+
+! COLORS
+*foreground: #003da7
+*background: #ebe4db
+! Black
+*color0: #000000
+*color8: #3d3d3d
+! Red
+*color1: #e00034
+*color9: #ff7a99
+! Green
+*color2: #009902
+*color10: #51ab52
+! Yellow
+*color3: #d58200
+*color11: #eec17a
+! Blue
+*color4: #003da7
+*color12: #688ed0
+! Magenta
+*color5: #6e0093
+*color13: #a75ec0
+! Cyan
+*color6: #00dbbf
+*color14: #89fff0
+! White
+*color7: #ffffff
+*color15: #a4a4a4

@@ -1,0 +1,21 @@
+# ROFI CONFIGURATION BRAUH!
+
+# Font
+rofi.font: Inconsolata bold 11
+
+# Options
+
+rofi.lines: 5
+rofi.hide-scrollbar: true
+rofi.width: 300
+rofi.location: 0
+rofi.border.width: 4
+# Colors
+
+rofi.color-enable: true
+#			bg	 border   seperator
+rofi.color-window:	#ebe4db, #e00034, #e00034
+#			bg	 fg	  bg-alt   hl-bg    hl-fg
+rofi.color-normal:      #ebe4db, #003da7, #ebe4db, #ebe4db, #e00034
+rofi.color-active:	#ebe4db, #688ed0, #ebe4db, #ebe4db, #d4d4d4
+rofi.color-urgent:	#ebe4db, #688ed0, #ebe4db, #ebe4db, #d4d4d4
